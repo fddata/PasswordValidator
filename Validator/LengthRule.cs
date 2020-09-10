@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Validator.IRules;
+using Validators.IRules;
 
-namespace Validator
+namespace Validators.LengthRules
 {
-    internal class LengthRule : IRule
+    public class LengthRule : IRule
     {
         private int _target;
 

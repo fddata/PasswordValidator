@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Validator.IRules;
+using Validators.IRules;
 
-namespace Validator
+namespace Validators
 {
-    public class ValidatorRunner
+    public class Validator
     {
 
         private List<IRule> _rules = new List<IRule>();
 
-        public ValidatorRunner() { }
+        public Validator() { }
 
         public void AddRule(IRule rule)
         {

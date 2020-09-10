@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Validator.IRules
+namespace Validators.IRules
 {
-    internal interface IRule
+    public interface IRule
     {
         bool validate(string input);
     }
