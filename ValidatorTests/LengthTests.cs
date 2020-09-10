@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Validators;
 using Validators.LengthRules;
-using Validators.IRules;
 
 namespace ValidatorTests
 {
